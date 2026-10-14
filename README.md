@@ -2,10 +2,6 @@
 
 Proyek forecasting **jumlah kamar terjual per hari** di sebuah hotel. Membandingkan model statistik klasik dan machine learning, lalu memakai model terbaik untuk memprediksi 30 hari ke depan.
 
-> **Catatan:** data di repo ini adalah **data sintetis** (dibuat oleh `src/generate_data.py`) dengan pola trend, musiman mingguan, musiman tahunan, dan lonjakan libur akhir tahun. Cocok untuk belajar dan demo. Untuk pemakaian nyata, ganti dengan data hotel asli (lihat bagian di bawah).
-
-> **Baru belajar forecasting?** Baca dulu [docs/PANDUAN_FORECASTING.md](docs/PANDUAN_FORECASTING.md): penjelasan konsep dari nol, tanpa rumus, lengkap dengan gambar dan latihan.
-
 ## Kenapa ini berguna?
 
 Prediksi permintaan membantu hotel menentukan harga kamar (revenue management), jadwal staf, pembelian stok (F&B, linen), dan perencanaan promosi.
