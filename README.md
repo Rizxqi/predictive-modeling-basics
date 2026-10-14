@@ -46,7 +46,7 @@ hotel-forecasting/
 │   ├── explain_concepts.py     # pembuat gambar penjelas
 │   └── forecast.py             # pipeline utama
 ├── docs/
-│   ├── PANDUAN_FORECASTING.md  # panduan konsep untuk pemula
+│   ├── PANDUAN_FORECASTING.md  
 │   └── images/                 # gambar penjelas
 ├── outputs/                    # hasil: metrik, forecast, grafik
 ├── requirements.txt
