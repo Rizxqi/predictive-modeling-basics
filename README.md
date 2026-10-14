@@ -39,42 +39,6 @@ Rata-rata, tebakan model terbaik meleset sekitar 4-5 kamar per hari (dari hotel 
 - **Selalu ada baseline** sebagai pembanding.
 - **Model final dilatih ulang** dengan seluruh data sebelum forecast ke depan.
 
-## Cara menjalankan
-
-```bash
-git clone https://github.com/<username-kamu>/hotel-forecasting.git
-cd hotel-forecasting
-pip install -r requirements.txt
-
-python src/generate_data.py      # opsional: buat ulang data sintetis
-python src/forecast.py           # jalankan analisis
-```
-
-Opsi tambahan:
-
-```bash
-python src/forecast.py --test-days 90 --horizon 60
-```
-
-Hasil tersimpan di folder `outputs/`: `metrics.csv`, `forecast.csv`, dan tiga gambar.
-
-## Memakai data hotel sendiri
-
-Siapkan CSV dengan dua kolom, satu baris per hari:
-
-```
-date,rooms_sold
-2024-01-01,85
-2024-01-02,79
-```
-
-Lalu jalankan:
-
-```bash
-python src/forecast.py --data path/ke/datamu.csv
-```
-
-Jika data asli punya hari libur nasional atau event khusus (Lebaran, konser, dll.), tambahkan sebagai fitur di fungsi `_calendar_features` pada `src/forecast.py`. Biasanya ini menaikkan akurasi cukup signifikan.
 
 ## Struktur proyek
 
